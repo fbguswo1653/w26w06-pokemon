@@ -26,7 +26,7 @@ export default function List() {
       <h2>포켓몬 목록</h2>
       <div>
         {pokemons.map((pokemon) => (
-          <div key={pokemon.id}>
+          <div key={pokemon.id}> 
             <img src={pokemon.image} alt={pokemon.name} />
             <p>{pokemon.name}</p>
           </div>
