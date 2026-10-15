@@ -43,6 +43,8 @@ export default function List() {
         setPokemons(pokemonData)
       } catch (error) {
         console.error("포켓몬 데이터 에러: ", error)
+      } finally {
+        setLoading(false)
       }
     }
 
